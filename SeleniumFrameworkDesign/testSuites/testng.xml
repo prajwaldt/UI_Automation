@@ -3,13 +3,13 @@
 <suite parallel = "tests" name="Suite">
 
 <listeners>
-<listener class-name="rahulshettyacademy.TestComponents.Listeners"/>
+<listener class-name="ecom.TestComponents.Listeners"/>
 </listeners>
 
 
   <test thread-count="5" name="Submit Order Test">
     <classes>
-      <class name="rahulshettyacademy.tests.SubmitOrderTest"/>
+      <class name="ecom.tests.SubmitOrderTest"/>
     </classes>
   </test> <!-- Test -->
   
