@@ -19,7 +19,7 @@ public class DataReader {
 	public List<HashMap<String, String>> getJsonDataToMap() throws IOException
 	{
 		//read json to string
-	String jsonContent = 	FileUtils.readFileToString(new File(System.getProperty("user.dir")+"//src//test//java//rahulshettyacademy//data//PurchaseOrder.json"), 
+	String jsonContent = 	FileUtils.readFileToString(new File(System.getProperty("user.dir")+"//src//test//java//ecom//data//PurchaseOrder.json"), 
 			StandardCharsets.UTF_8);
 	
 	//String to HashMap- Jackson Datbind
